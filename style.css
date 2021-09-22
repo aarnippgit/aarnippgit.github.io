@@ -1,0 +1,28 @@
+body{
+  background-color: antiquewhite;
+  border-style: dashed;
+}
+h1{
+  color: forestgreen;
+}
+p{
+  font-size: 30px;
+  text-shadow: 4px -4px orange;
+  border-style:outset;
+
+}
+
+.picture{
+  float: right;
+  width: 350px;
+  height: 300px;
+}
+.bigist{
+  width: 600px;
+  height: 300px;
+}
+.hobbytxt{
+  color: red;
+  font-family: monospace;
+  font-size: 23px;
+}
