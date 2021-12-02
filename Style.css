@@ -48,6 +48,7 @@ main {
 
 aside {
     flex: 20%;
+    justify-content: center;
     background-color: lightgoldenrodyellow;
 }
 
