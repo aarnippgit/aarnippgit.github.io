@@ -83,6 +83,10 @@ footer {
     padding: 10px;
     text-align: center;
 }
+[class*="mobile"] {
+    float: left;
+    padding: 15px;
+}
 
 [class*="mobile"] {
     width: 100%;
