@@ -91,5 +91,7 @@ footer {
 #contact{
     background-color:lightgoldenrodyellow;;
     padding: 10px;
-    text-align: right;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
