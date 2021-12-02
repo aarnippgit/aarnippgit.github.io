@@ -3,34 +3,27 @@
     flex-direction: column;
   }
 }
-.flex-container {
-    display: flex;
-    width: 40%;
-    flex-direction: column;
-    background-color: red;
-}
-.flex-container>div {
-    background-color:blue;
-    margin: 70px;
-    padding: 100px;
-    font-size: 30px;
-}
 .main-img{
     float:right;
     max-width: 50%;
     height: auto;
     font-size:10px;
 }
-@media only screen and (min-width: 768px) {
 
+.navigation{
+    display: flex;
+    background-color: #333;
 }
-.nav{
-    flex: 1;
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover {
     background-color: slategrey;
-    padding: 10px;
-    
+    color: black;
 }
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
+
