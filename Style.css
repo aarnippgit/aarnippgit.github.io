@@ -47,6 +47,7 @@ main {
 }
 
 aside {
+    display: flex;
     flex: 20%;
     justify-content: center;
     background-color: lightgoldenrodyellow;
@@ -59,7 +60,7 @@ aside {
     
 }
 #imgtxt{
-    font-size:10px;
+    font-size:14px;
     text-align: center;
 }
 
