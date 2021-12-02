@@ -10,3 +10,8 @@
     padding: 100px;
     font-size: 30px;
 }
+#kai{
+    float:right;
+    max-width: 50%;
+    height: auto;
+}
