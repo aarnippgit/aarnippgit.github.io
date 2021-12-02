@@ -42,9 +42,12 @@ main {
     padding: 20px;
 }
 
-aside {
+.side {  
     display: flex;
     flex-wrap: wrap;
+}
+
+aside {
     flex: 30%;
     background-color: lime;
     padding: 20px;
