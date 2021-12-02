@@ -50,7 +50,7 @@ aside {
     flex: 40%;
     justify-content: center;
     background-color: lightgoldenrodyellow;
-    
+    padding: 20px;
 }
 
 #main-img {
