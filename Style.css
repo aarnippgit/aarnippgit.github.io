@@ -43,14 +43,14 @@ nav a:hover {
 main {
     flex: 60%;
     background-color: lightgoldenrodyellow;
-    padding: 20px 20px 20px 0px;
+    padding: 20px;
 }
 
 aside {
     flex: 40%;
     justify-content: center;
     background-color: lightgoldenrodyellow;
-    padding: 20px 0px 20px 20px;
+    padding: 20px;
 }
 
 #main-img {
@@ -69,7 +69,6 @@ footer {
     background-color: lightgoldenrodyellow;
 }
 
-
 @media screen and (max-width: 700px) {
     .sides, nav {   
     flex-direction: column;
@@ -77,14 +76,12 @@ footer {
 }
 .intro{
     background-color: white;
-    padding: 20px 20px 20px 0px;
-    margin: 10px;
+    padding: 20px;
 }
 
 .exp{
     background-color: white;
-    padding: 20px 20px 20px 0px;
-    margin: 10px;
+    padding: 20px;
 }
 
 
