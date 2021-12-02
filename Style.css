@@ -18,7 +18,7 @@ header {
 
 nav {
     display: flex;
-    background-color: rgb(141, 138, 138);
+    background-color: gray;
     justify-content: center;
 }
 
