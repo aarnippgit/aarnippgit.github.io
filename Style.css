@@ -72,10 +72,6 @@ footer {
     .side, nav {   
     flex-direction: column;
     }
-    #main-img{
-        width: 50%;
-        height: auto;
-    }
 }
 .intro{
     background-color: white;
