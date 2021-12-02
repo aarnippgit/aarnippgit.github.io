@@ -49,17 +49,19 @@ main {
 
 aside {
     flex: 30%;
-    background-color: lime;
+    background-color: gray;
     padding: 20px;
 }
 
-.main-img {
-    background-color: gray;
+#main-img {
     width: 100%;
     height:250px;
     padding: 20px;
 }
-
+#imgtxt{
+    font-size:10px;
+    text-align: right;
+}
 
 footer {
     padding: 20px;
