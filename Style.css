@@ -4,6 +4,7 @@
 
 
 body {
+    background-color: lightgoldenrodyellow;
     margin: 0;
 }
 
@@ -67,7 +68,7 @@ aside {
 footer {
     padding: 20px;
     text-align: center;
-    background: gray;
+    background-color: lightgoldenrodyellow;
 }
 
 
