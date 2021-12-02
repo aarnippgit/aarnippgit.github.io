@@ -35,14 +35,6 @@ body {
     color: black;
 }
 
-.aside {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 30%;
-    background-color: lime;
-    padding: 20px;
-}
-
 
 .main {
     flex: 70%;
@@ -50,6 +42,13 @@ body {
     padding: 20px;
 }
 
+.aside {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 30%;
+    background-color: lime;
+    padding: 20px;
+}
 
 .main-img {
     background-color: gray;
