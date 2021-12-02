@@ -51,7 +51,6 @@ main {
 aside {
     flex: 30%;
     background-color: gray;
-    padding: 20px;
 }
 
 #main-img {
