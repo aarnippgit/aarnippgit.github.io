@@ -41,13 +41,13 @@ nav a:hover {
 }
 
 main {
-    flex: 80%;
+    flex: 60%;
     background-color: lightgoldenrodyellow;
     padding: 20px;
 }
 
 aside {
-    flex: 20%;
+    flex: 40%;
     justify-content: center;
     background-color: lightgoldenrodyellow;
     
