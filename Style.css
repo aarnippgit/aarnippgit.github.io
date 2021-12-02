@@ -76,3 +76,7 @@ footer {
     flex-direction: column;
     }
 }
+.intro{
+    padding: 20px;
+    text-align: center;
+}
