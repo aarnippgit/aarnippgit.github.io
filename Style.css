@@ -67,6 +67,16 @@ footer {
     background-color: lightgoldenrodyellow;
 }
 
+
+@media screen and (max-width: 700px) {
+    .side, nav {   
+    flex-direction: column;
+    }
+    #main-img{
+        width: 50%;
+        height: ;
+    }
+}
 .intro{
     background-color: white;
     padding: 50px;
@@ -82,17 +92,4 @@ footer {
     background-color:lightgoldenrodyellow;;
     padding: 10px;
     text-align: center;
-}
-[class*="mobile"] {
-    float: left;
-    padding: 15px;
-}
-
-[class*="mobile"] {
-    width: 100%;
-}
-
-@media only screen and (min-width: 768px) {
-    main {width: 80%;}
-    aside {width: 20%;}
 }
