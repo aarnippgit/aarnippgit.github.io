@@ -57,11 +57,11 @@ aside {
 #main-img {
     width: 380px;
     height: auto;
-    padding: 20px;
+    
 }
 #imgtxt{
     font-size:10px;
-    text-align: right;
+    text-align: center;
 }
 
 footer {
