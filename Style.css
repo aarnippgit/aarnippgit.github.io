@@ -53,6 +53,7 @@ aside {
 }
 
 #main-img {
+    padding: 10px;
     max-width: 92%;
     height: auto;
     
