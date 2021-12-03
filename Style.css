@@ -107,7 +107,7 @@ footer {
 .grid {
     display: grid;
     grid-template-areas:
-    'left left main main right tight'
+    'left left main main right right'
     'left left main main right right'
     'left left footer footer right right';
     grid-gap: 10px;
