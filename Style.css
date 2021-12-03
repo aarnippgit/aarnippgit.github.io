@@ -74,18 +74,18 @@ footer {
     flex-direction: column;
     }
 }
+
 .intro{
     background-color: white;
     padding: 20px;
-    margin-right: 50px;
+    margin: 10px 50px 10px 0px;
 }
 
 .exp{
     background-color: white;
     padding: 20px;
-    margin-right: 50px;
+    margin: 10px 50px 10px 0px;
 }
-
 
 #contact{
     background-color:rgb(235, 235, 179);
