@@ -107,7 +107,7 @@ footer {
     background-color: #d5eef7;
 }
 .gridimg{
-    max-width: 50%;
+    max-width: 10%;
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 1;
