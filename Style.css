@@ -98,29 +98,20 @@ footer {
     transform: translateY(-5px);
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
+.grid{
+    display: grid;
+    grid-template-areas:
+    'img img txt txt txt txt'
+    'img img txt txt txt txt';
 }
-
-.grid-container > .gridtxt {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-}
-.grid-container > .gridfig {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
+.gridtxt{
+    grid-area: txt;
+    background-color: #d5eef7;
 }
 .gridfig{
-    
+    grid-area: img;
 }
+
 #gridimg{
-    max-width: 20%;
+    max-width: 10%;
 }
