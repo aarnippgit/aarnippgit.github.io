@@ -98,21 +98,17 @@ footer {
     transform: translateY(-2px);
 }
 
-.grid{
-    display: grid;
-}
-.gridtxt{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    background-color: #d5eef7;
-}
-.gridfig{
-    grid-column-start: 2;
-    grid-column-end: 3; 
-    grid-row-start: 1;
-    grid-row-end: 2;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
 }
 
-#gridimg{
-    max-width: 10%;
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
