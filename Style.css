@@ -41,20 +41,20 @@ nav a:hover {
 }
 
 main {
-    flex: 70%;
+    flex: 80%;
     background-color: lightgoldenrodyellow;
     padding: 20px;
 }
 
 aside {
-    flex: 30%;
+    flex: 20%;
     justify-content: center;
     background-color: lightgoldenrodyellow;
     padding: 20px;
 }
 
 #main-img {
-    max-width: 70%;
+    max-width: 100%;
     height: auto;
     margin-left: 50px;
 }
