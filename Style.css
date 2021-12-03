@@ -23,9 +23,11 @@ nav {
 
 
 nav a {
+    border-style: inset;
     color: white;
     background-color: darkgrey;
     padding: 10px 15px;
+    margin: 0px 10px 0px 10px;
     text-decoration: none;
     text-align: center;
 }
