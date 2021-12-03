@@ -56,7 +56,7 @@ aside {
 #main-img {
     max-width: 70%;
     height: auto;
-    
+    margin-left: 50px;
 }
 #imgtxt{
     font-size:14px;
