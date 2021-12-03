@@ -58,6 +58,9 @@ footer {
     .sides, nav {   
     flex-direction: column;
     }
+    footer{
+        width: 100%;
+    }
 }
 
 .intro{
