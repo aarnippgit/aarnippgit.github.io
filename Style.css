@@ -44,6 +44,7 @@ main {
     flex: 80%;
     background-color: lightgoldenrodyellow;
     padding: 20px;
+    margin-right: 50px;
 }
 
 aside {
