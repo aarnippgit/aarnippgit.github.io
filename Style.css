@@ -22,23 +22,6 @@ nav {
     padding: 5px 0px 5px 0px;
 }
 
-
-nav a {
-    border-style: inset;
-    color: white;
-    background-color: darkgrey;
-    padding: 10px 15px;
-    margin: 0px 10px 0px 10px;
-    text-decoration: none;
-    text-align: center;
-}
-
-
-nav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
 .sides {  
     display: flex;
     flex-wrap: wrap;
