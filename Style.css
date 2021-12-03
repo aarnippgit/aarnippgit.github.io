@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: lightgoldenrodyellow;
+    background-color: #1F82A5;
     margin: 0;
 }
 
@@ -42,14 +42,14 @@ nav a:hover {
 
 main {
     flex: 80%;
-    background-color: lightgoldenrodyellow;
+    background-color: #1F82A5;
     padding: 20px;
 }
 
 aside {
     flex: 20%;
     justify-content: center;
-    background-color: lightgoldenrodyellow;
+    background-color: #1F82A5;
     padding: 20px;
 }
 
