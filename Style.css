@@ -101,8 +101,8 @@ footer {
 .grid{
     display: grid;
     grid-template-areas:
-    'img img txt txt txt txt'
-    'img img txt txt txt txt';
+    'img img ing txt txt txt'
+    'img img img txt txt txt';
 }
 .gridtxt{
     grid-area: txt;
