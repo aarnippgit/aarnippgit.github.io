@@ -95,7 +95,7 @@ footer {
 }
 .button:hover {
     background-color: #065dd8;
-    transform: translateY(-2px);
+    transform: translateY(-20px);
 }
 
 .grid-container {
@@ -106,7 +106,7 @@ footer {
   padding: 10px;
 }
 
-.grid-container > div {
+.grid-container > .gridtxt {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 20px 0;
@@ -117,6 +117,9 @@ footer {
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
+}
+.gridfig{
+    
 }
 #gridimg{
     max-width: 20%;
