@@ -112,11 +112,11 @@ footer {
   padding: 20px 0;
   font-size: 30px;
 }
-.gridfig{
-    grid-column-start: 1;
-    grid-column-end: 2; 
-    grid-row-start: 1;
-    grid-row-end: 3;
+.grid-container > .gridfig {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
 #gridimg{
     max-width: 20%;
