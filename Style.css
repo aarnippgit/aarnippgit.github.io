@@ -106,3 +106,10 @@ footer {
     grid-column-end: 3;
     background-color: #d5eef7;
 }
+.gridimg{
+    max-width: 50%;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
