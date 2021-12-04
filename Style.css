@@ -100,7 +100,6 @@ footer {
 
 .leftimg { grid-area: left; }
 .gridtxt { grid-area: main; }
-.item3 { grid-area: left; }
 .rightimg { grid-area: right; }
 .gridfoot { grid-area: footer; }
 
