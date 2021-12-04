@@ -113,10 +113,16 @@ footer {
     padding: 10px;
 }
 
-.grid> div {
+.grid > div {
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
+}
+.leftimg{
+     grid-area: 1 / 1 / 3 / 2;
+}
+.rightimg{
+    grid-area: 5 / 1 / 3 / 6
 }
 #leftimg{
     max-width:100%;
