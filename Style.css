@@ -101,7 +101,7 @@ footer {
 .leftimg { grid-area: left; }
 .gridtxt { grid-area: main; }
 .rightimg { grid-area: right; }
-
+.gridfoot { grid-area: footer; }
 
 .grid {
     display: grid;
