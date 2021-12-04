@@ -108,14 +108,12 @@ footer {
     grid-template-areas:
     'left left main main right right'
     'left left main main right right'
-    'left left footer footer right right';
+     'footer footer';
     grid-gap: 10px;
-    background-color: #2196F3;
     padding: 10px;
 }
 
 .grid> div {
-    background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
