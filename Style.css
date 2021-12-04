@@ -106,9 +106,9 @@ footer {
 .grid {
     display: grid;
     grid-template-areas:
+    'null null main main right right'
     'left left main main right right'
-    'left left main main right right'
-    'footer footer footer footer footer footer';
+    'left left footer footer footer footer';
     grid-gap: 10px;
     padding: 10px;
 }
