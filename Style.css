@@ -121,8 +121,8 @@ footer {
     font-size: 30px;
 }
 #leftimg{
-    max-width:20%;
+    max-width:100%;
 }
 #rightimg{
-    max-width:20%
+    max-width:100%
 }
