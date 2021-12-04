@@ -1,4 +1,4 @@
-* {
+y* {
     box-sizing: border-box;
 }
 
@@ -116,7 +116,7 @@ footer {
 .grid {
     display: grid;
     grid-template-areas:
-    'null null main main right right'
+    'empty empty main main right right'
     'left left main main right right'
     'left left footer footer footer footer';
     grid-gap: 10px;
