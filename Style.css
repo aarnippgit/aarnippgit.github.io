@@ -1,14 +1,16 @@
 /* general */
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .sides, nav {   
         flex-direction: column;
         align-self: center;
     }
-    [class*="col-"] {
-        width: 100%;
+    #vastuumain{
+        flex-direction: column;
+        align-self: center;
     }
-    footer{
-        width: 100%;
+    .col {
+        flex: 100%;
+        max-width: 100%;
     }
 }
 
@@ -55,11 +57,11 @@ nav {
 }
 
 footer {
-    padding: 20px;
+    padding: 10px;
     text-align: center;
-    background-color: #d5eef7;
-    width: 20%;
-    float: right;
+    width: 100%;
+    position:fixed;
+    bottom:0;
 }
 
 /* index.html */
@@ -68,13 +70,13 @@ footer {
     flex-wrap: wrap;
 }
 
-#indexmain {
+.indexmain {
     flex: 80%;
     background-color: #A0D8ED;
     padding: 20px;
 }
 
-#indexaside {
+.indexaside {
     flex: 20%;
     justify-content: center;
     background-color: #A0D8ED;
@@ -105,112 +107,61 @@ footer {
     float: right;
 }
 
-/* Vastuullisuus.html kuvat edelleen huonosti, mobiiliskaalaus vituillaan */
+/* Vastuullisuus.html */
 
-#vastuumain{
+.vastuumain{
+    display: flex;
+    flex-wrap: wrap;
     width: 94.75%;
     margin: 0 auto;
-    overflow: hidden;
 }
 
 .col{
-    width: 33.333%;
+    flex: 33.333%;
     height: fit-content;
     float: left;
     text-align: center;
-    padding: 1rem;
-}
-
-#leftimg, #rightimg {
-    max-width: 80%;
     margin: 20px 0px;
 }
 
-.leftimg{
-    background-color: #4CAF50;
-}
-.rightimg{
-    background-color: #d5eef7;
-}
-.vastuutxt{
-    background-color: bisque;
-}
-
-/* .vastuugrid {
-    display: grid;
-    grid-template-areas:
-    'left left main main right right';
-    grid-gap: 10px;
-    padding: 10px;
-}
-
-.leftimg, .vastuutxt, .rightimg{
-    width: 33.333%;
-    float: left;
-}
-
-.leftimg {
-    display: grid;
-    grid-area: left;
-    max-width: 100%;
-    align-items: center;
-    justify-items: center;
-}
 
 #leftimg, #rightimg {
     max-width: 80%;
 }
 
 .vastuutxt {
-    grid-area: main;
-    width: auto;
-    height: fit-content;
-    margin: 80px 0px;
-    padding: 0px 20px;
+    padding: 20px;
+    margin: 50px 0px;
     background-color:#d5eef7;
-    font-size: 100%;
+    font-size: auto;
 }
-
-.rightimg {
-    display: grid;
-    grid-area: right;
-    max-width: 100%;
-    align-items: center;
-    justify-items: center;
-}
-
-*/
 
 
 /* Sidosryhmätyö.html kuva vituillaan, teksti vituillaan, kaikki yhteen columniin ja päällekkäin*/
 
-.sidosgrid {
-    display: grid;
-    grid-template-areas:
-    ' . img . '
-    ' . txt . ';
+.sidosmain{
+    display: flex;
+    flex-wrap: wrap;
+    width: 94.75%;
+    margin: 0 auto;
 }
 
-.sidosgrid > .sidosryhmäfig, .sidosryhmätxt {
-    width: 60%;
+.sidoscol1{
+    flex: 30%;
+    height: fit-content;
+    text-align: center;
+    margin: 20px 0px;
 }
 
-
-.sidosryhmäfig {
-    grid-area: img;
-    width: 60%;
-}
-#sidosryhmäimg {
-    max-width: 500px;
-    height: auto;
-}
-
-.sidosryhmätxt{
-    grid-area: txt;
+.sidoscol2{
+    flex: 70%;
+    height: fit-content;
+    text-align: center;
     background-color: #d5eef7;
-    height: fit-content;    
+    padding: 20px;
+    margin: 20px 0px;
 }
 
-#sidostxt{
-    margin: 20px;
+#sidosryhmäimg {
+max-width: 100%;
 }
