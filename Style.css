@@ -4,13 +4,19 @@
         flex-direction: column;
         align-self: center;
     }
-    #vastuumain{
+    .vastuumain{
         flex-direction: column;
         align-self: center;
     }
-    .col {
-        flex: 100%;
-        max-width: 100%;
+    .sidosmain{
+        flex-direction: column;
+        align-self: center;
+    }
+    [class*="col"] {
+        width: 100%;
+    }
+    [class*="txt"] {
+        width: 80%
     }
 }
 
@@ -68,37 +74,32 @@ footer {
 .sides {  
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin:30px;
 }
 
 .indexmain {
-    flex: 80%;
+    flex: 75%;
     background-color: #A0D8ED;
-    padding: 20px;
 }
 
 .indexaside {
-    flex: 20%;
-    justify-content: center;
+    flex: 25%;
     background-color: #A0D8ED;
-    padding: 20px;
 }
 
 #aside-img {
     max-width: 100%;
-    height: auto;
-    margin-top: 10px;
 }
 
-.intro{
+#intro{
     background-color: #d5eef7;
     padding: 20px;
-    margin: 10px;
 }
 
-.exp{
+#exp{
     background-color: #d5eef7;
     padding: 15px;
-    margin: 10px;
 }
 
 #contact{
@@ -116,12 +117,12 @@ footer {
     margin: 0 auto;
 }
 
-.col{
+.vastuucol{
     flex: 33.333%;
     height: fit-content;
     float: left;
     text-align: center;
-    margin: 20px 0px;
+    margin: 30px 0px;
 }
 
 
@@ -130,14 +131,16 @@ footer {
 }
 
 .vastuutxt {
+    width: 80%;
     padding: 20px;
-    margin: 50px 0px;
     background-color:#d5eef7;
     font-size: auto;
+    text-align: left;
+    align-self: center;
 }
 
 
-/* Sidosryhmätyö.html kuva vituillaan, teksti vituillaan, kaikki yhteen columniin ja päällekkäin*/
+/* Sidosryhmätyö.html */
 
 .sidosmain{
     display: flex;
@@ -147,21 +150,86 @@ footer {
 }
 
 .sidoscol1{
-    flex: 30%;
-    height: fit-content;
-    text-align: center;
-    margin: 20px 0px;
+    flex: 70%;
+    width: 80%;
+    padding: 20px;
+    margin: 30px 0px;
+    background-color: #d5eef7;
+    float: left;
+    align-self: center;
 }
 
 .sidoscol2{
-    flex: 70%;
+    flex: 30%;
     height: fit-content;
     text-align: center;
-    background-color: #d5eef7;
-    padding: 20px;
-    margin: 20px 0px;
+    float: left;
+    margin: 30px 0px;
 }
 
 #sidosryhmäimg {
-max-width: 100%;
+    max-width: 80%;
+}
+
+/* Vaikuttaminen.html */
+
+.vaikutusmain{
+    display: flex;
+    flex-wrap: wrap;
+    width: 94.75%;
+    margin: 0 auto;
+}
+
+.vaikutuscol{
+    flex: 80%;
+    height: fit-content;
+    float: left;
+    text-align: center;
+
+}
+
+.vaikutustxt{
+    flex: 50%;
+    width: 50%;
+    padding: 10px;
+    background-color:#d5eef7;
+    font-size: auto;
+    text-align: left;
+    align-self: center;
+    margin-top: 30px;
+}
+
+#vaikutusimg{
+    max-width: 80%;
+}
+
+/* kirjoittaminen.html */
+
+.kirjoitusmain{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.kirjoituscol{
+    flex: 100%;
+    height: fit-content;
+    float: left;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.kirjoitustxt{
+    width: 80%;
+    padding: 10px;
+    background-color:#d5eef7;
+    font-size: auto;
+    text-align: left;
+    align-self: center;
+    margin: 20px 0px;
+}
+
+#kirjoitusimg{
+    max-width: 50%;
 }
