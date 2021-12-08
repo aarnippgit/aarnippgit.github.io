@@ -1,3 +1,17 @@
+/* general */
+@media only screen and (max-width: 768px) {
+    .sides, nav {   
+        flex-direction: column;
+        align-self: center;
+    }
+    [class*="col-"] {
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+}
+
 * {
     box-sizing: border-box;
 }
@@ -22,75 +36,6 @@ nav {
     
 }
 
-.sides {  
-    display: flex;
-    flex-wrap: wrap;
-}
-
-main {
-    flex: 80%;
-    background-color: #A0D8ED;
-    padding: 20px;
-}
-
-aside {
-    flex: 20%;
-    justify-content: center;
-    background-color: #A0D8ED;
-    padding: 20px;
-}
-
-#aside-img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 10px;
-}
-
-
-footer {
-    padding: 20px;
-    text-align: center;
-    background-color: #d5eef7;
-    width: 20%;
-}
-
-@media screen and (max-width: 700px) {
-    .sides, nav {   
-    flex-direction: column;
-    }
-    footer{
-        width: 100%;
-    }
-    .grid{
-        display: grid;
-        grid-template-areas:
-        'right right'
-        'main main'
-        'left left'
-        'footer footer';
-        grid-gap: 10px;
-        padding: 10px;
-    }
-}
-
-.intro{
-    background-color: #d5eef7;
-    padding: 20px;
-    margin: 10px 50px 10px 0px;
-}
-
-.exp{
-    background-color: #d5eef7;
-    padding: 20px;
-    margin: 10px 50px 10px 0px;
-}
-
-#contact{
-    background-color:rgb(235, 235, 179);
-    padding: 10px;
-    float: right;
-}
-
 .button {
     background-color: #4CAF50;
     border: none;
@@ -103,38 +48,169 @@ footer {
     transition-duration: 0.4s;
     cursor: pointer;
 }
+
 .button:hover {
     background-color: #065dd8;
     transform: translateY(-5px);
 }
 
-.leftimg { grid-area: left; }
-.gridtxt { grid-area: main; }
-.rightimg { grid-area: right; }
-.gridfoot { grid-area: footer; }
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #d5eef7;
+    width: 20%;
+    float: right;
+}
 
-.grid {
+/* index.html */
+.sides {  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#indexmain {
+    flex: 80%;
+    background-color: #A0D8ED;
+    padding: 20px;
+}
+
+#indexaside {
+    flex: 20%;
+    justify-content: center;
+    background-color: #A0D8ED;
+    padding: 20px;
+}
+
+#aside-img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.intro{
+    background-color: #d5eef7;
+    padding: 20px;
+    margin: 10px;
+}
+
+.exp{
+    background-color: #d5eef7;
+    padding: 15px;
+    margin: 10px;
+}
+
+#contact{
+    background-color:rgb(235, 235, 179);
+    padding: 10px;
+    float: right;
+}
+
+/* Vastuullisuus.html kuvat edelleen huonosti, mobiiliskaalaus vituillaan */
+
+#vastuumain{
+    width: 94.75%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.col{
+    width: 33.333%;
+    height: fit-content;
+    float: left;
+    text-align: center;
+    padding: 1rem;
+}
+
+#leftimg, #rightimg {
+    max-width: 80%;
+    margin: 20px 0px;
+}
+
+.leftimg{
+    background-color: #4CAF50;
+}
+.rightimg{
+    background-color: #d5eef7;
+}
+.vastuutxt{
+    background-color: bisque;
+}
+
+/* .vastuugrid {
     display: grid;
     grid-template-areas:
-    'empty empty main main right right'
-    'left left main main right right'
-    'left left footer footer footer footer';
+    'left left main main right right';
     grid-gap: 10px;
     padding: 10px;
 }
 
-.grid > div {
-    text-align: center;
-    padding: 20px 0;
+.leftimg, .vastuutxt, .rightimg{
+    width: 33.333%;
+    float: left;
 }
 
-#leftimg{
+.leftimg {
+    display: grid;
+    grid-area: left;
     max-width: 100%;
+    align-items: center;
+    justify-items: center;
 }
-#rightimg{
-    max-width: 100%
+
+#leftimg, #rightimg {
+    max-width: 80%;
 }
-.gridtxt{
-    background-color: #A0D8ED;
-    
+
+.vastuutxt {
+    grid-area: main;
+    width: auto;
+    height: fit-content;
+    margin: 80px 0px;
+    padding: 0px 20px;
+    background-color:#d5eef7;
+    font-size: 100%;
+}
+
+.rightimg {
+    display: grid;
+    grid-area: right;
+    max-width: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+*/
+
+
+/* Sidosryhmätyö.html kuva vituillaan, teksti vituillaan, kaikki yhteen columniin ja päällekkäin*/
+
+.sidosgrid {
+    display: grid;
+    grid-template-areas:
+    ' . img . '
+    ' . txt . ';
+}
+
+.sidosgrid > .sidosryhmäfig, .sidosryhmätxt {
+    width: 60%;
+}
+
+
+.sidosryhmäfig {
+    grid-area: img;
+    width: 60%;
+}
+#sidosryhmäimg {
+    max-width: 500px;
+    height: auto;
+}
+
+.sidosryhmätxt{
+    grid-area: txt;
+    background-color: #d5eef7;
+    height: fit-content;    
+}
+
+#sidostxt{
+    margin: 20px;
 }
