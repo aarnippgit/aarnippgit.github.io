@@ -15,6 +15,9 @@
     [class*="col"] {
         width: 100%;
     }
+    .topbtn{
+        visibility: visible !important;
+    }
 }
 
 * {
@@ -109,7 +112,21 @@ nav {
     background-color: #4CAF50;
     transform: translateY(-3px);
 }
-
+.topbtn{
+    visibility: hidden;
+    opacity: 0.5;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 14px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background-color: #BEBEBE;
+    color: #020101;
+    padding: 5px;
+    border-radius: 4px;
+}
 
 /* -------------------------index.html------------------------- */
 .sides {  
@@ -224,7 +241,7 @@ nav {
 }
 
 .vaikutustxt{
-    padding: 10px;
+    padding: 5px;
     text-align: left;
     align-self: center;
     margin-top: 30px;
