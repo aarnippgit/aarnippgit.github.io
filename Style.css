@@ -4,11 +4,6 @@
         flex-direction: column;
         align-self: center;
     }
-    nav{
-        position: -webkit-sticky;
-        position: sticky;
-        top: 0;
-    }
     .vastuumain{
         flex-direction: column;
         align-self: center;
