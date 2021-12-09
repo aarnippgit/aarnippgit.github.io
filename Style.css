@@ -12,6 +12,10 @@
         flex-direction: column;
         align-self: center;
     }
+    .kirjoitusmain{
+        flex-direction: column;
+        align-self: center;
+    }
     [class*="col"] {
         width: 100%;
     }
@@ -262,21 +266,24 @@ nav {
     justify-content: center;
 }
 
-.kirjoituscol{
-    width: 80%;
+.kirjoituscol1{
+    flex: 30%;
+    float: left;
     height: fit-content;
     text-align: center;
     margin: 30px 0px;
 }
 
-.kirjoitustxt{
-    padding: 15px;
-    background-color:#d5eef7;
-    text-align: left;
+.kirjoituscol2{
+    flex: 70%;
+    width: 80%;
+    padding: 20px;
+    margin: 30px 0px;
+    background-color: #d5eef7;
+    float: left;
     align-self: center;
-    margin: 10px 0px;
 }
 
 #kirjoitusimg{
-    max-width: 30%;
+    max-width: 80%;
 }
