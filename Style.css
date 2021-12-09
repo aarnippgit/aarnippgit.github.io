@@ -1,4 +1,4 @@
-/* general */
+/* -------------------------general------------------------- */
 @media screen and (max-width: 768px) {
     .sides, nav {   
         flex-direction: column;
@@ -14,9 +14,6 @@
     }
     [class*="col"] {
         width: 100%;
-    }
-    [class*="txt"] {
-        width: 80%
     }
 }
 
@@ -70,7 +67,7 @@ footer {
     bottom:0;
 }
 
-/* index.html */
+/* -------------------------index.html------------------------- */
 .sides {  
     display: flex;
     flex-wrap: wrap;
@@ -100,6 +97,7 @@ footer {
 #exp{
     background-color: #d5eef7;
     padding: 15px;
+    margin: 10px 0px;
 }
 
 #contact{
@@ -108,7 +106,7 @@ footer {
     float: right;
 }
 
-/* Vastuullisuus.html */
+/* -------------------------Vastuullisuus.html------------------------- */
 
 .vastuumain{
     display: flex;
@@ -140,7 +138,7 @@ footer {
 }
 
 
-/* Sidosryhmätyö.html */
+/* -------------------------Sidosryhmätyö.html------------------------- */
 
 .sidosmain{
     display: flex;
@@ -171,49 +169,49 @@ footer {
     max-width: 80%;
 }
 
-/* Vaikuttaminen.html */
+/* -------------------------Vaikuttaminen.html------------------------ */
 
 .vaikutusmain{
     display: flex;
     flex-wrap: wrap;
     width: 94.75%;
     margin: 0 auto;
+    justify-content: center;
+
 }
 
 .vaikutuscol{
-    flex: 80%;
+    width: 80%;
     height: fit-content;
-    float: left;
     text-align: center;
 
 }
 
 .vaikutustxt{
-    flex: 50%;
-    width: 50%;
     padding: 10px;
-    background-color:#d5eef7;
     font-size: auto;
     text-align: left;
     align-self: center;
     margin-top: 30px;
+    background-color: #d5eef7;
 }
 
 #vaikutusimg{
-    max-width: 80%;
+    max-width: 35%;
 }
 
-/* kirjoittaminen.html */
+/* -------------------------kirjoittaminen.html------------------------- */
 
 .kirjoitusmain{
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
+    width: 94.75%;
     margin: 0 auto;
+    justify-content: center;
 }
 
 .kirjoituscol{
-    flex: 100%;
+    width: 80%;
     height: fit-content;
     float: left;
     text-align: center;
@@ -221,15 +219,14 @@ footer {
 }
 
 .kirjoitustxt{
-    width: 80%;
     padding: 10px;
     background-color:#d5eef7;
     font-size: auto;
     text-align: left;
     align-self: center;
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 
 #kirjoitusimg{
-    max-width: 50%;
+    max-width: 35%;
 }
