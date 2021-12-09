@@ -132,6 +132,11 @@ nav {
     border-radius: 4px;
 }
 
+.imgtxt{
+    font-size: 10px;
+    opacity: 0.5;
+}
+
 /* -------------------------index.html------------------------- */
 .sides {  
     display: flex;
